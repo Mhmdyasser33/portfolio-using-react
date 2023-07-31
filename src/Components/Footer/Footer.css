@@ -1,0 +1,20 @@
+.footer{
+    background: #0a0416;
+    display: flex;
+   justify-content: space-evenly ;
+   color : #ffffff;
+
+}
+
+.footer .contact-links a img {
+    height: 20px;
+    margin-right: 20px;
+    color : #ffffff;
+}
+
+.footer p , div{
+    margin-top: 3px;
+}
+
+
+

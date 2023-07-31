@@ -1,0 +1,82 @@
+.container{
+    width : 100% ;
+    display: flex ;
+}
+
+.container > div > h1{
+    color : #c770f0 ;
+    font-size: 28px;
+   margin: 15px 0 0 100px;
+}
+
+
+.container .navbar-container {
+    display: flex ;
+    margin:  15px 0 0 50%;
+}
+
+.navbar-container a{
+    position: relative;
+    text-decoration: none ;
+    margin: 5px 25px 0 0 ;
+}
+
+.navbar-container a::after{
+   position: absolute;
+   content: '';
+   width: 0 ;
+   height: 4px;
+   bottom: -2px;
+   left: 0 ;
+   background: #c770f0;
+   transition: all 0.3s ease-in;
+   -webkit-transition: all 0.3s ease-in;
+   -moz-transition: all 0.3s ease-in;
+   -ms-transition: all 0.3s ease-in;
+   -o-transition: all 0.3s ease-in;
+}
+
+.navbar-container a:hover::after{
+    width: 100%;
+}
+
+.home-page-details-container{
+    display: flex ;
+    flex-direction: column ;
+    margin-right: 40rem;
+}
+.navbar-container a  span {
+    margin-right: 5px;
+    color : #fff;
+}
+
+.navbar-container a .icon{
+    color : #fff ;
+    margin-right: 5px;
+}
+
+.left-side .home-details {
+    margin-top: 200px;
+    margin-left:23rem;
+}
+
+.right-side {
+margin-top: -300px;
+}
+
+section h1 {
+ font-size: 41.6px;
+ text-align: center ;
+ color : #ffffff ;
+}
+
+.introduce-mySelf p {
+    font-size: 19px ;
+    color : #ffff;
+}
+
+.details {
+text-align: center ;
+line-height: 25px;
+}
+
