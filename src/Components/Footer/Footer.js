@@ -7,11 +7,8 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className='footer'>
-     <p>
-     Designed and Developed by Mohammed Yasser
-     </p>
      <div className='copyright'>
-      <p>Copyright © 2023 </p>
+     <p>All Copyrights are reserved © 2023 Mohamed Yasser &#128525;</p>
      </div>
      <div className='contact-links'>
         <Link to="https://github.com/Mhmdyasser33">

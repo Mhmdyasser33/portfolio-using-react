@@ -2,10 +2,13 @@
  padding-bottom: 50px ;
 }
 
+.project-container h5{
+    margin-top: 10px;
+}
+
 .project-container h4{
     font-weight: bold ;
     padding-top : 10px ;
-
 }
 
 .project-container h1{
