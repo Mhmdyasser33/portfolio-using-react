@@ -46,7 +46,7 @@
     margin-right: 40rem;
 }
 .navbar-container a  span {
-    margin-right: 5px;
+    margin-right: 3px;
     color : #fff;
 }
 
@@ -58,6 +58,7 @@
 .left-side .home-details {
     margin-top: 200px;
     margin-left:23rem;
+
 }
 
 .right-side {

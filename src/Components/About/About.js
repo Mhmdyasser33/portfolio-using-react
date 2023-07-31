@@ -4,7 +4,6 @@ import Navbar from '../Navbar/Navbar'
 import './About.css'
 import TechSkills from '../TechSkills/TechSkills'
 import Tools from '../ToolsUsed/Tools'
-import contributeImg from '../../images/Screenshot (139).png'
 import Calender from '../GithubCalender/Calender'
 const About = () => {
   return (
