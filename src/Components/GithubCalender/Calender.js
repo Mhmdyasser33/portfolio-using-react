@@ -4,7 +4,9 @@ import './Calender.css'
 const Calender = () => {
 
   return (
-    <div className='calender'>
+    <div className='calender' data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
     <GitHubCalendar
     username="Mhmdyasser33"
     blockSize={12}

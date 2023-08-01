@@ -1,17 +1,19 @@
 import React from 'react'
 import HomeIcon from '../../images/home-main.svg'
-import Navbar from '../Navbar/Navbar'
 import { Link } from 'react-router-dom'
 import LinkedInImg from '../../images/icons8-linkedin.svg';
 import GithubImg from '../../images/icons8-github.svg' ;
 import GmailImg from '../../images/icons8-gmail.svg'
 import './Home.css'
+import CV from '../CV/CV';
 const Home = () => {
   return (
     <>
     <div className='left-side'>
       <div className='home-details'>
-        <div className='home-page-details-container'>
+        <div className='home-page-details-container' data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
         <h2 className='title'>
           Hello there!👋🏻
         </h2>
@@ -19,13 +21,20 @@ const Home = () => {
          I'M <strong className='name'>MOHAMED YASSER</strong>
         </p>
         <h3 className='job-title' style={{color: "#c770f0" , fontWeight : "bolder" , marginLeft:"30px" , marginTop : "0px"}}>I'm front end developer </h3>
+        <div>
+        </div>
+         <button className='hire-btn' style={{color : "#ffffff" ,background : "#c770f0" , padding : "10px" , borderRadius : "10px" , fontSize : "20px" , fontWeight : "bolder"}}>
+          Hire Me
+         </button>
       </div>
        </div>
    </div>
-       <div className='right-side'>
+       <div className='right-side' data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
         <img src={HomeIcon} alt='home-icon' style={{width: "35rem"}}/>
         </div>
-     <section className='introduce-mySelf' style={{textAlign : "left"}}>
+     <section className='introduce-mySelf' style={{textAlign : "left"}} >
      <h1>LET ME <span style={{color: "#c770f0"}}>INTRODUCE</span> MYSELF</h1>
      <div className='details'>
      <p className="love-programming-message" style={{fontSize : "16.2px"}}>

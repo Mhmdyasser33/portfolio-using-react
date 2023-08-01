@@ -1,6 +1,5 @@
 import React from 'react'
 import AboutIcon from '../../images/about.png'
-import Navbar from '../Navbar/Navbar'
 import './About.css'
 import TechSkills from '../TechSkills/TechSkills'
 import Tools from '../ToolsUsed/Tools'
@@ -8,7 +7,7 @@ import Calender from '../GithubCalender/Calender'
 const About = () => {
   return (
     <>
-    <div className='left-side'>
+    <div className='left-side' >
       <div className='home-details'>
         <div className='home-page-details-container'>
         <h2 className='title'>
@@ -29,7 +28,7 @@ I am a final year student in faculty and I am in computer science department.
        <div className='right-side'>
         <img src={AboutIcon} alt='home-icon' style={{width: "35rem"}}/>
         </div>
-      <section className='skill-container'>
+      <section className='skill-container' >
    <h2>Professional <span style={{color : "#c770f0"}} >Skillset</span> </h2>
    <TechSkills/>
    <section className='tools-container'>

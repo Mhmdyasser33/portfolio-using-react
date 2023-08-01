@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faCode, fas  , faBriefcase} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome , faPhoneAlt, faAddressCard  } from '@fortawesome/free-solid-svg-icons';
+import { faHome , faPhoneAlt, faAddressCard   } from '@fortawesome/free-solid-svg-icons';
 import './Navbar.css'
+import { CgFileDocument } from "react-icons/cg";
+import CV from '../CV/CV';
 library.add(fas);
 const Navbar = () => {
   return (
@@ -24,6 +26,10 @@ const Navbar = () => {
      <Link to="/project">
      <FontAwesomeIcon className='icon' icon={faBriefcase}/>
      <span> Project </span>
+     </Link>
+     <Link to="/cv">
+     <CgFileDocument size={23} style={{color : "#ffffff"}}/>
+     <span> Resume </span>
      </Link>
      <Link to="/contact">
      <FontAwesomeIcon className='icon' icon={faPhoneAlt}/>

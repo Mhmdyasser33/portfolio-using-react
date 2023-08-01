@@ -18,8 +18,10 @@ const Projects = () => {
      My Recent <strong style={{color : "#c770f0"}}> Works</strong>
      <h5>Here are few projects I've Worked on recently </h5>
      </h1>
-      <div className='projects'>
-     <div className='project'>
+      <div  className='projects'>
+     <div className='project' data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
      <img src={amazonClone} alt='amazon-img' />
      <h4>amazon-clone</h4>
     <p>
@@ -31,7 +33,9 @@ const Projects = () => {
     <span>Github</span>
     </Link>
      </div>
-     <div className='project'>
+     <div className='project' data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
      <img src={linkedInClone} alt='linked-in' />
      <h4>LinkedIn-clone</h4>
     <p>
@@ -43,7 +47,9 @@ const Projects = () => {
     <span>Github</span>
     </Link>
      </div>
-     <div className='project'>
+     <div className='project' data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
      <img src={movieApp} alt='movie-app' />
      <h4>Movie-app</h4>
     <p>
@@ -55,7 +61,9 @@ const Projects = () => {
     <span>Github</span>
     </Link>
      </div>
-     <div className='project'>
+     <div className='project' data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
      <img src={crudOperation} alt='crud-operation' />
      <h4>crud-operation</h4>
     <p>
@@ -68,7 +76,9 @@ const Projects = () => {
     <span>Github</span>
     </Link>
      </div>
-     <div className='project'>
+     <div className='project' data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
      <img src={weatherApp} alt='weather-app' />
      <h4>weather-app</h4>
     <p>
@@ -80,7 +90,9 @@ const Projects = () => {
     <span>Github</span>
     </Link>
      </div>
-     <div className='project'>
+     <div className='project' data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
      <img src={dashBoard} alt='dashboard' />
      <h4>dashBoard</h4>
     <p>
@@ -93,7 +105,9 @@ const Projects = () => {
     <span>Github</span>
     </Link>
      </div>
-     <div className='project'>
+     <div className='project' data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
      <img src={X_O_Game} alt='x-o-game' />
      <h4>Tic-tac-toe game </h4>
     <p>
@@ -106,7 +120,9 @@ const Projects = () => {
     <span>Github</span>
     </Link>
      </div>
-     <div className='project'>
+     <div className='project' data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
      <img src={to_do_list} alt='to-do-list' />
      <h4>to do list </h4>
     <p>

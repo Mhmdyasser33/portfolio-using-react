@@ -18,7 +18,9 @@ import
  import './TechSkills.css'
 const TechSkills = () => {
   return (
-     <div className='tech-skill-container'>
+     <div className='tech-skill-container' data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
         <div>
       <DiHtml5 size={72} className='tech-skill'/>
      </div>

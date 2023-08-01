@@ -11,7 +11,9 @@ import {
 import './Tools.css'
 const Tools = () => {
   return (
-    <div className='tools-container'>
+    <div className='tools-container' data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
    <div>
     <SiVisualstudiocode size={72} className='tool-used'/>
    </div>
