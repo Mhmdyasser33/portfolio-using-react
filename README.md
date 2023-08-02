@@ -38,7 +38,7 @@ This portfolio website showcases my skills, projects, and achievements as a deve
 
 ## Screenshots
 ![Screenshot 1](![Uploading Screenshot (163).png…](https://github.com/Mhmdyasser33/portfolio-using-react/blob/master/src/images/Screenshot%20(163).png))
-![Screenshot 2](/screenshots/screenshot2.png)
+![Screenshot 2](![Uploading Screenshot (164).png…](https://github.com/Mhmdyasser33/portfolio-using-react/blob/master/src/images/Screenshot%20(164).png))
 
 
 ## License
