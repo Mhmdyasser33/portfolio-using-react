@@ -37,8 +37,8 @@ This portfolio website showcases my skills, projects, and achievements as a deve
 2. Open your web browser and visit `http://localhost:3000` to see the portfolio
 
 ## Screenshots
-![Screenshot 1](![Uploading Screenshot (163).png…](https://github.com/Mhmdyasser33/portfolio-using-react/blob/master/src/images/Screenshot%20(163).png))
-![Screenshot 2](![Uploading Screenshot (164).png…](https://github.com/Mhmdyasser33/portfolio-using-react/blob/master/src/images/Screenshot%20(164).png))
+![Screenshot of project component]([Uploading Screenshot (163).png…](https://github.com/Mhmdyasser33/portfolio-using-react/blob/master/src/images/Screenshot%20(163).png))
+![Screenshot of about sjills component]([Uploading Screenshot (164).png…](https://github.com/Mhmdyasser33/portfolio-using-react/blob/master/src/images/Screenshot%20(164).png))
 
 
 ## License
