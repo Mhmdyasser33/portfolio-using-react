@@ -9,7 +9,6 @@ Welcome to my portfolio repository! This repository contains the source code and
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
 - [License](#license)
 - [Contact](#contact)
 
@@ -42,7 +41,7 @@ This portfolio website showcases my skills, projects, and achievements as a deve
 This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
 
 ## Contact
-- Email: your.email@example.com
+- Email: muhhmed.yasserxi@gmail.com
 - LinkedIn: [mohamed yasser](https://www.linkedin.com/in/mohamed-yasser-31872821b/)
 - GitHub: [Mhmdyasser33](https://github.com/Mhmdyasser33)
 
