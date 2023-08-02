@@ -19,6 +19,7 @@ const Projects = () => {
      <h5>Here are few projects I've Worked on recently </h5>
      </h1>
       <div  className='projects'>
+        {/* amazon clone */}
      <div className='project' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
@@ -33,6 +34,7 @@ const Projects = () => {
     <span>Github</span>
     </Link>
      </div>
+     {/* linkedin clone */}
      <div className='project' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
@@ -47,6 +49,7 @@ const Projects = () => {
     <span>Github</span>
     </Link>
      </div>
+    {/* Movie app */}
      <div className='project' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
@@ -61,6 +64,7 @@ const Projects = () => {
     <span>Github</span>
     </Link>
      </div>
+     {/* Crud operation */}
      <div className='project' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
@@ -76,6 +80,7 @@ const Projects = () => {
     <span>Github</span>
     </Link>
      </div>
+     {/* Weather app  */}
      <div className='project' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
@@ -90,6 +95,7 @@ const Projects = () => {
     <span>Github</span>
     </Link>
      </div>
+     {/* Dashboard */}
      <div className='project' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
@@ -105,6 +111,7 @@ const Projects = () => {
     <span>Github</span>
     </Link>
      </div>
+     {/* Tic Tac Toe Game */}
      <div className='project' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
@@ -120,6 +127,7 @@ const Projects = () => {
     <span>Github</span>
     </Link>
      </div>
+     {/* To Do List  */}
      <div className='project' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">

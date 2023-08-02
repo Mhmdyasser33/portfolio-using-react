@@ -1,34 +1,41 @@
 import React from 'react';
-import './CV.css'
+import cv_img from '../../images/Screenshot (160).png';
+import './CV.css';
+
 const CV = () => {
   const handleDownload = () => {
-    // get the relative path of pdf
-   const cv_path = '../../MY_CV/my cv.docx'
-   // fetch this path using fetch
-   fetch(cv_path)
-   // make response as a blob , blob represents raw binary data, typically used for handling binary data like images, audio, and in this case, a PDF file.
-   .then((response) => response.blob())
-   .then((blob) =>{
-    // create temp_url for make it as a href for a tag
-    const temp_url = URL.createObjectURL(blob) ;
-    const a = document.createElement("a");
-    a.href = temp_url ;
-    a.download = "my cv.docx" ;
-    a.target = "_blank" ;
-    a.click() ;
-    // remove the temp_url
-    URL.revokeObjectURL(temp_url) ;
-   })
-   // handle error
-   .catch((error) =>{
-     console.log("Error downloading the CV:" + error );
-   })
+    // Define the relative path to the CV document
+    const cv_path = '../../MY_CV/my cv.docx';
+
+    // Fetch the CV document using the defined path
+    fetch(cv_path)
+      .then((response) => response.blob()) // Convert response to a Blob
+      .then((blob) => {
+        // Create a temporary URL for the Blob
+        const temp_url = URL.createObjectURL(blob);
+
+        // Create an <a> element to initiate download
+        const a = document.createElement("a");
+        a.href = temp_url;
+        a.download = "my cv.docx"; // Set the download filename
+        a.target = "_blank"; // Open in a new tab
+        a.click(); // Programmatically click the <a> element
+
+        // Revoke the temporary URL to free up memory
+        URL.revokeObjectURL(temp_url);
+      })
+      .catch((error) => {
+        console.log("Error downloading the CV: " + error);
+      });
   };
 
   return (
     <div className='container'>
-      <button
-      onClick={handleDownload}>Download CV</button>
+      {/* Display CV image */}
+      <img src={cv_img} alt='cv-img' />
+
+      {/* Button to trigger the CV download */}
+      <button onClick={handleDownload}>Download CV</button>
     </div>
   );
 };

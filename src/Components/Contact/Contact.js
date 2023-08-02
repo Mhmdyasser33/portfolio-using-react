@@ -1,41 +1,57 @@
 import React, { useRef, useState } from 'react';
 import './Contact.css';
-const Contact = () => {
-  const [email , setEmail] =useState("");
-  const[name , setName] = useState("") ;
-  const [phone , setPhone] = useState("");
-  const [msg , setMsg] = useState("") ;
- const [showAlert , setShowAlert] = useState(false) ;
-  // take a reference for email
-  const emailRef = useRef() ;
-  const nameRef = useRef() ;
-  const phoneRef = useRef() ;
-  const messageRef = useRef();
-  const handleSubmit = (e) =>{
-    e.preventDefault() ;
-   if(email === "" || phone === "" || name === "" || msg === ""){
-      return ;
-   }else{
 
-    setShowAlert(true) ;
-    // this is for control of the alert message
-    setTimeout(() => {
-      setShowAlert(false)
-    }, 1500);
-    setName("");
-    setEmail("");
-    setPhone("");
-    setMsg("");
-   }
+const Contact = () => {
+  // State for form fields
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [msg, setMsg] = useState("");
+
+  // State for showing success alert
+  const [showAlert, setShowAlert] = useState(false);
+
+  // References for input fields
+  const emailRef = useRef();
+  const nameRef = useRef();
+  const phoneRef = useRef();
+  const messageRef = useRef();
+
+  // Handling form submission
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (email === "" || phone === "" || name === "" || msg === "") {
+      return;
+    } else {
+      setShowAlert(true);
+
+      // Clear the alert message after 2 seconds
+      setTimeout(() => {
+        setShowAlert(false);
+      }, 2000);
+
+      // Clear form fields
+      setName("");
+      setEmail("");
+      setPhone("");
+      setMsg("");
+    }
   }
+
   return (
     <div className='contact' data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">
-     {showAlert && <div className='alert alert-success' role='alert' style={{fontWeight : "bolder" , borderRadius : "10px"}}>
-      Thanks for messaging us we will contact you in your email
+         data-aos-easing="linear"
+         data-aos-duration="1500">
+
+      {/* Success alert */}
+      {showAlert && <div className='alert alert-success' role='alert' style={{fontWeight: "bolder", borderRadius: "10px"}}>
+        Thanks for messaging us! We will contact you at your email.
       </div>}
+
       <h1 className='contact-title'>Contact <span style={{ color: "#c770f0" }}>Us</span></h1>
+
+      {/* Contact form */}
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor='name'>Name</label>
@@ -47,8 +63,8 @@ const Contact = () => {
         </div>
         <div>
           <label htmlFor='email'>Email</label>
-          <input type='email'onChange={(e) =>  setEmail(e.target.value)}  placeholder='Enter your email' id='email' value={email} required ref={emailRef}/>
-          <p className='user-email' style={{color : "#ffffff" , textAlign : "center", marginTop : "10px" , fontWeight : "bold"}}>{email}</p>
+          <input type='email' onChange={(e) => setEmail(e.target.value)} placeholder='Enter your email' id='email' value={email} required ref={emailRef}/>
+          <p className='user-email' style={{color: "#ffffff", textAlign: "center", marginTop: "10px", fontWeight: "bold"}}>{email}</p>
         </div>
         <div>
           <label htmlFor='message'>Message</label>
