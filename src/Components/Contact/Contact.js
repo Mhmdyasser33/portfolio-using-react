@@ -1,12 +1,11 @@
 import React, { useRef, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import './Contact.css';
 const Contact = () => {
   const [email , setEmail] =useState("");
   const[name , setName] = useState("") ;
   const [phone , setPhone] = useState("");
   const [msg , setMsg] = useState("") ;
-  const navigate  = useNavigate() ;
+ const [showAlert , setShowAlert] = useState(false) ;
   // take a reference for email
   const emailRef = useRef() ;
   const nameRef = useRef() ;
@@ -17,18 +16,25 @@ const Contact = () => {
    if(email === "" || phone === "" || name === "" || msg === ""){
       return ;
    }else{
-    navigate("/") ;
-    // return input fields to default values
-    setName("") ;
-    setEmail("") ;
-    setPhone("") ;
-    setMsg("") ;
+
+    setShowAlert(true) ;
+    // this is for control of the alert message
+    setTimeout(() => {
+      setShowAlert(false)
+    }, 1500);
+    setName("");
+    setEmail("");
+    setPhone("");
+    setMsg("");
    }
   }
   return (
     <div className='contact' data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
+     {showAlert && <div className='alert alert-success' role='alert' style={{fontWeight : "bolder" , borderRadius : "10px"}}>
+      Thanks for messaging us we will contact you in your email
+      </div>}
       <h1 className='contact-title'>Contact <span style={{ color: "#c770f0" }}>Us</span></h1>
       <form onSubmit={handleSubmit}>
         <div>

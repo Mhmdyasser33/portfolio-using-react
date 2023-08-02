@@ -21,8 +21,6 @@ const Home = () => {
          I'M <strong className='name'>MOHAMED YASSER</strong>
         </p>
         <h3 className='job-title' style={{color: "#c770f0" , fontWeight : "bolder" , marginLeft:"30px" , marginTop : "0px"}}>I'm front end developer </h3>
-        <div>
-        </div>
          <button className='hire-btn' style={{color : "#ffffff" ,background : "#c770f0" , padding : "10px" , borderRadius : "10px" , fontSize : "20px" , fontWeight : "bolder"}}>
           Hire Me
          </button>

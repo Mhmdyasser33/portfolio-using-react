@@ -3,7 +3,11 @@
     display: flex ;
 }
 
-.container > div > h1{
+.container > div > a {
+    text-decoration: none ;
+}
+
+.container > div > a > h1{
     color : #c770f0 ;
     font-size: 28px;
    margin: 15px 0 0 100px;
