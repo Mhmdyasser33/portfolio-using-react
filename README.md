@@ -45,7 +45,7 @@ This portfolio website showcases my skills, projects, and achievements as a deve
 This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
 
 ## Contact
-- Email: muhhmed.yasserxi@gmail.com
+- Email: muhmmed.yasserxi@gmail.com
 - LinkedIn: [mohamed yasser](https://www.linkedin.com/in/mohamed-yasser-31872821b/)
 - GitHub: [Mhmdyasser33](https://github.com/Mhmdyasser33)
 
