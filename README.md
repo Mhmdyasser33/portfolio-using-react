@@ -25,7 +25,7 @@ This portfolio website showcases my skills, projects, and achievements as a deve
 - CSS3
 - JavaScript
 - React.js 
-- Bootstrap (optional for styling)
+- Bootstrap 
 
 ## Installation
 1. Clone this repository using `git clone https://github.com/Mhmdyasser33/portfolio-using-react`
