@@ -37,7 +37,7 @@ This portfolio website showcases my skills, projects, and achievements as a deve
 2. Open your web browser and visit `http://localhost:3000` to see the portfolio
 
 ## Screenshots
-![Screenshot 1](/screenshots/screenshot1.png)
+![Screenshot 1](![Uploading Screenshot (163).png…](https://github.com/Mhmdyasser33/portfolio-using-react/blob/master/src/images/Screenshot%20(163).png))
 ![Screenshot 2](/screenshots/screenshot2.png)
 
 
