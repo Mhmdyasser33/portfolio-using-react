@@ -24,7 +24,7 @@ This portfolio website showcases my skills, projects, and achievements as a deve
 - HTML5
 - CSS3
 - JavaScript
-- React.js (or your preferred frontend framework/library)
+- React.js 
 - Bootstrap (optional for styling)
 
 ## Installation
