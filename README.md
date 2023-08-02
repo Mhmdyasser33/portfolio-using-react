@@ -36,6 +36,10 @@ This portfolio website showcases my skills, projects, and achievements as a deve
 1. Start the development server using `npm start`
 2. Open your web browser and visit `http://localhost:3000` to see the portfolio
 
+## Screenshots
+![Screenshot 1](/screenshots/screenshot1.png)
+![Screenshot 2](/screenshots/screenshot2.png)
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
