@@ -30,12 +30,17 @@ const CV = () => {
   };
 
   return (
-    <div className='container'>
+    <div className='container' >
       {/* Display CV image */}
-      <img src={cv_img} alt='cv-img' />
+      <img src={cv_img} alt='cv-img' data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" />
 
       {/* Button to trigger the CV download */}
-      <button onClick={handleDownload}>Download CV</button>
+      <button onClick={handleDownload} data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500">Download CV</button>
     </div>
   );
 };
