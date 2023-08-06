@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import LinkedInImg from '../../images/icons8-linkedin.svg';
 import GithubImg from '../../images/icons8-github.svg';
 import GmailImg from '../../images/icons8-gmail.svg';
+
 import './Footer.css';
 
 const Footer = () => {

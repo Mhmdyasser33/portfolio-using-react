@@ -5,7 +5,6 @@ import LinkedInImg from '../../images/icons8-linkedin.svg';
 import GithubImg from '../../images/icons8-github.svg';
 import GmailImg from '../../images/icons8-gmail.svg';
 import './Home.css';
-import CV from '../CV/CV';
 
 const Home = () => {
   return (

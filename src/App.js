@@ -8,6 +8,7 @@ import Contact from './Components/Contact/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CV from './Components/CV/CV';
 import Footer from './Components/Footer/Footer';
+import Scroll from './Components/ScrollTop/Scroll';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/cv' element={<CV/>}/>
       </Routes>
+      <Scroll/>
       <Footer/>
     </Router>
     </div>

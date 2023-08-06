@@ -22,6 +22,12 @@ code {
     monospace;
 }
 
+*{
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box ;
+}
+
 ::-webkit-scrollbar{
   width: .6rem ;
 }
@@ -38,5 +44,4 @@ code {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   background-clip: content-box ;
-
 }

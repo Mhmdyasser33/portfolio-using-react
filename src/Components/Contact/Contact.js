@@ -63,8 +63,13 @@ const Contact = () => {
         </div>
         <div>
           <label htmlFor='email'>Email</label>
-          <input type='email' onChange={(e) => setEmail(e.target.value)} placeholder='Enter your email' id='email' value={email} required ref={emailRef}/>
-          <p className='user-email' style={{color: "#ffffff", textAlign: "center", marginTop: "10px", fontWeight: "bold"}}>{email}</p>
+          <input type='email' placeholder='Enter your email' id='email' value={email} required ref={emailRef}  onChange={(e) => setEmail(e.target.value)}/>
+          {emailRef?.current?.value !== "" && (
+          <p className='user-email' style={{color: "#ffffff", textAlign: "center", marginTop: "10px", fontWeight: "bold"}}>
+            Your Email : {email}
+          </p>
+)}
+
         </div>
         <div>
           <label htmlFor='message'>Message</label>
